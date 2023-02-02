@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Mines",
+  "description": "Owning mines",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["scripts/board.js", "scripts/initialise.js"],
+      "matches": ["https://www.google.com/*"]
+    }
+  ]
+}
